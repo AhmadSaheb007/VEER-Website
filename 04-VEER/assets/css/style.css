@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,600&family=Poppins:wght@300;400;800&display=swap');
+
+
+*{
+    
+    padding: 0;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+
+}
+header{
+    padding-bottom: 5rem;
+}
+.aqua{
+    color: rgb(43, 150, 150)  !important;
+}
+
+.bg-aqua{
+    background-color: rgb(43, 150, 150) !important;
+}
+
+
+.nav-link:hover{
+
+    color: rgb(43, 150, 150) !important;
+
+}
+
+.bg{
+
+    background-image: url(../img/04-VEER_banner.jpg);
+    height: 45rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.box:hover{
+
+    box-shadow: 0px 0px 10px 0px aqua;
+    transition: 0.5s;
+    filter: opacity(0.7);
+
+}
+
+.black-shadow img:hover{
+    filter:brightness(0.2)
+
+}
+
+.about-aligner{
+    margin-left: 3rem;
+}
+
+
+.achivement-icon-size{
+
+    width: 20%;
+
+}
+
+.bg2{
+
+    background-image: url(../img/04-VEER_funFact_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.small-font{
+
+    font-size: 12px;
+
+}
+
+.bg-paste{
+    background-color: rgb(12, 206, 148);
+}
+
+.my-btn{
+    background-color:rgb(37, 219, 165) !important;
+
+}
+
+footer{
+    background-color: rgb(5, 5, 70);
+    font-size: 12px;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
